@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/logo-er.png">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Memes Machine - Gerador de Memes</title>
+</head>
+
+<body>
+    <main title="conteúdo principal do gerador de memes">
+        <section class="container container__main">
+            <article class="app app__meme-generator" id="downloaded">
+
+                <div class="logo logo__meme-generator">
+                    <img src="./assets/github/logo-edwebdev.png" alt="logotipo Memes Machine">
+                </div>
+
+                <div class="app-image app-image__meme-generator">
+                    <div class="meme-content">
+                        <textarea id="text-box-top" class="text-box text-box__top"
+                            placeholder="Digite seu meme"></textarea>
+                        <div id="display-image" class="display-image"></div>
+                        <textarea id="text-box-bottom" class="text-box text-box__bottom"
+                            placeholder="Digite seu meme"></textarea>
+                    </div>
+                </div>
+
+                <div class="wrapp wrapp__meme-picker">
+                    <div class="app-photo-picker app-photo-picker__meme-generator">
+
+                        <select id="memes-list" class="memes-list memes-list__select"
+                            onchange="changeMemePicture(this.value)">
+                            <!-- Options preenchidas via JavaScript -->
+                        </select>
+
+                        <label for="image-input" class="custom-file-input custom-file-input__upload">Escolher
+                            Imagem</label>
+                        <input type="file" id="image-input" class="image-input image-input__file" accept="image/*"
+                            style="display: none;">
+                    </div>
+                </div>
+
+                <div class="download download__meme-action">
+                    <button id="btn-download" class="btn-download btn-download__meme">Download</button>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <script src="./javascript/scripts.js"></script>
+    <script src="./javascript/html2Canvas.js"></script>
+    <script>
+        document.getElementById("btn-download").onclick = () => {
+            const screenshotPrint = document.querySelector('#downloaded');
+            html2canvas(screenshotPrint).then((canvas) => {
+                const base64Image = canvas.toDataURL("image/png");
+                let anchor = document.createElement("a");
+                anchor.setAttribute("href", base64Image);
+                anchor.setAttribute("download", "my-meme.png");
+                anchor.click();
+                anchor.remove();
+            });
+        };
+    </script>
+</body>
+
+</html>
