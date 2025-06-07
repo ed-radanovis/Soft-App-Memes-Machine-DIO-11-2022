@@ -12,7 +12,7 @@ Below is the result of the completed project:
 
 > 🎯 Objective:
 >
-> - I decided to develop this mini frontend application **_`"Soft App"`_** to compare, elucidate and consolidate web development concepts that I had learned in a previous DevClub Fullstack Dev course.The project implements a simple frontend with **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**,**_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** and pure **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_** to manage the creation and download of memes, along with a responsive user interface with a focus on usability. ✅
+> - I decided to develop this mini frontend application **_`"Soft App"`_** to compare, elucidate and consolidate web development concepts that I had learned in a previous DevClub Fullstack Dev course.The project implements a simple frontend with **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_** , **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** and pure **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_** to manage the creation and download of memes, along with a responsive user interface with a focus on usability. ✅
 
 > - This project reinforced my knowledge in DOM manipulation with pure JavaScript, responsive design with CSS (not presented in the class) and integration of features such as image upload and screenshot using the HTML2Canvas library which improved my skills in frontend development and basic architecture. ✅
 >   > - The simplicity of the framework, with a focus on a lightweight and functional application, added to the charisma and excellent teaching of the Educator, made the development process fun and educational.
@@ -33,13 +33,14 @@ Below is the result of the completed project:
 <p align="center">
 <img src="./assets/github/Model.png" alt="print-screen-image" width="800px" >
 </p>
-<br>
 <div align="center">
  <a href="https://memesmachine.onrender.com/" >Click here to try it out .. thanks for your interest!</a>
  <p>( 🖱️ Ctrl + click to open in a new tab )</p>
 </div>
- <br>
- <br>
+ <p align="center">
+<img src="./assets/github/Model2.png" alt="print-screen-image" width="800px" >
+</p>
+<br>
 
 ### Adjustments and improvements
 
