@@ -34,7 +34,7 @@ Below is the result of the completed project:
 <img src="./assets/github/Model.png" alt="print-screen-image" width="800px" >
 </p>
 <div align="center">
- <a href="https://memesmachine.onrender.com/" >Click here to try it out .. thanks for your interest!</a>
+ <a href="https://ed-radanovis.github.io/Soft-App-Memes-Machine-DIO-11-2022/" >Click here to try it out .. thanks for your interest!</a>
  <p>( 🖱️ Ctrl + click to open in a new tab )</p>
 </div>
  <p align="center">
