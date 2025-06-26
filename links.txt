@@ -1,0 +1,10 @@
+link tutorial youtube
+
+https://www.google.com/search?q=memes+machine+felipe+aguiar&rlz=1C1ISCS_pt-ptBR988BR988&oq=memes+machine+felipe+aguiar&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCjE4MTQ1ajBqMTWoAgiwAgHxBY4hCD-H5Jn68QWOIQg_h-SZ-g&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0a33f6ac,vid:qJAUZ9soSCY,st:0
+
+
+endereço do repositório
+https://github.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022
+
+endereço deploy
+https://ed-radanovis.github.io/Soft-App-Memes-Machine-DIO-11-2022/
